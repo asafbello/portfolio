@@ -71,7 +71,6 @@ function addModals() {
             '</div>' +
             '</div>';
     }
-    console.log(strHtml)
     document.querySelector('body').innerHTML += strHtml;
 }
 
@@ -81,5 +80,10 @@ function init() {
 }
 
 function sendMail() {
-    window.open('mailto:test@gmail.com')
+    var subject = document.querySelector('#subjectmail').innerHTML;
+    var body =    document.querySelector('#bodytxt').innerHTML;
+
+    var link = 'https://mail.google.com/mail/?view=cm&fs=1&to=asafbello@gmail.com&su=' + subject + '&body=' + body;
+    window.open(link, '_blank')
+    console.log('aaaa')
 }
