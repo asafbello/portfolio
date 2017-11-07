@@ -1,0 +1,47 @@
+h1 {
+    color: black;
+}
+
+.gameBoard td {
+    width: 50px;
+    height:50px;
+    text-align: center;
+}
+ 
+ 
+.wall {
+    background-image: url('../img/wall.jpg');
+    background-size: cover;
+}
+ 
+ 
+.target {
+    background-image: url('../img/target.png'), url('../img/floor.jpg') ;
+    background-size: 20px, 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ 
+.box {
+    background-image: url('../img/box.png');
+    background-size: cover;
+}
+
+.floor {
+    background-image: url('../img/floor.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.gamer {
+    background-image: url('../img/gamer.png'), url('../img/floor.jpg');
+    background-size: 50px, 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+    

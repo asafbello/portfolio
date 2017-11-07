@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/calcu.css">
+    <title>calcu</title>
+</head>
+<body>
+   <h1>calcu</h1> 
+<table cellspacing="0.5">
+
+<th class="numsbox"></th>
+<tr>
+    <td class="op">MC</td>
+    <td class="op">MR</td>
+    <td class="op">MS</td>
+    <td class="op" onclick="addAction(M+)">M+</td>
+    <td class="op" onclick="addAction(M)">M-</td>
+</tr>
+<tr>
+    <td class="op" onclick="addAction('←')">←</td>
+    <td class="op">CE</td>
+    <td class="op" onclick="addAction('C')">C</td>
+    <td class="op" onclick="addOp('+')">?</td>
+    <td class="op" onclick="addOp(this)">√</td>
+</tr>
+<tr>
+    <td onclick="addDigit(7)">7</td>
+    <td onclick="addDigit(8)">8</td>
+    <td onclick="addDigit(9)">9</td>
+    <td class="op" onclick="addOp('/')">/</td>
+    <td class="op" onclick="addOp('%')">%</td>
+</tr>
+<tr>
+    <td onclick="addDigit(4)">4</td>
+    <td onclick="addDigit(5)">5</td>
+    <td onclick="addDigit(6)">6</td>
+    <td class="op" onclick="addOp('*')">*</td>
+    <td class="op">1/X</td>
+</tr>
+<tr>
+    <td onclick="addDigit(1)">1</td>
+    <td onclick="addDigit(2)">2</td>
+    <td onclick="addDigit(3)">3</td>
+    <td class="op" onclick="addOp('-')">-</td>
+    <td class="res" rowspan="2"onclick="showAnswer(gNum1,gNum2,gOp)">=</td>
+</tr>
+<tr>
+    <td colspan="2" onclick="addDigit(0)">0</td>
+    <td onclick="addDigit('.')">.</td>
+    <td class="op" onclick="addOp('+')">+</td>
+</tr>
+
+
+
+</table>
+
+<script src="js/calcu.js"></script>
+
+</body>
+</html>

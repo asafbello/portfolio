@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine sweepers</title>
+    <link rel="stylesheet" href="css/myStyle.css">
+
+</head>
+
+<!-- <body> -->
+<body onload="inItGame()">
+
+    <h1>mine sweeper</h1>
+    <h3 id="ELAPSED">your time is</h3>
+    <button onclick="changeDifficultyToEasy()" "window.location.reload()"> Easy difficulty</button>
+    <button onclick="changeDifficultyToMedium()" "window.location.reload()">Medium difficulty</button>
+    <button onclick="changeDifficultyToHard()" "window.location.reload()">Hard difficulty</button>
+
+    <table border="1">
+        <tbody id="board"></tbody>
+    </table>
+
+    <h2 id="gameOver"></h2>
+    <h2 id="win"></h2>
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+div {
+    margin-left: 500px;
+    width: 300px;
+}
+
+.answer {
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.answers-holder {
+    border: 2px solid black;
+    margin-left: 500px;
+    width: 350px;
+    height: 300px;
+}
+
+h3 {
+    font-size: 3em;
+    margin: 5px;
+    border: 1px solid black;
+    padding: 3px;
+}

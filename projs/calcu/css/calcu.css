@@ -1,0 +1,47 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+table {
+    border: 1px solid blueviolet;
+    margin: auto;
+    background-color: lightyellow;
+    width:  15PX;
+    height: 15PX;
+    max-width: 20px;
+    border-radius: 5px;   
+}
+
+tr {
+    border: 1px solid black;
+    width:  15PX;
+    height: 15PX;
+    max-width: 20px;
+    
+}
+
+td {
+    
+    text-align: center;  
+    width:  15PX;
+    height: 15PX;
+    max-width: 25px;
+    border-collapse: collapse; 
+    border-radius: 3px;
+    background-color: lightgray;
+}
+
+th {
+    width:  25PX;
+    height: 20PX;
+    max-width: 25px;  
+}
+
+.op {
+    background-color: lightsalmon;
+}
+
+.res {
+    background-color: yellow;
+}
